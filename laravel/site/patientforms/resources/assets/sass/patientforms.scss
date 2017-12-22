@@ -1,0 +1,365 @@
+//------------------------------------------------------------------------------
+// Custom Patient Forms Styling
+//------------------------------------------------------------------------------
+
+.btn:visited,
+.btn:hover,
+.btn:active,
+.btn:focus {
+    outline: none !important;
+}
+
+.btn-login {
+    font-size: 1.2em;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 11em;
+    padding: 0.6em 0;
+}
+
+.pull-none {
+    float:none;
+}
+
+.panel-btn-group {
+
+    margin-left: 0.8em;
+
+    .panel-btn {
+        margin-right: 0.8em;
+        
+        a {
+            color: #000;
+            font-size: 18px;
+            background: #fff;
+            display: inline-block;
+            line-height: 1;
+            padding: 0.7em;
+            margin-top: 0.5em;
+            border: 1px solid #bfbfbf;
+            border-radius: 6px;
+            text-decoration: none;
+
+            &:hover {
+                background: #000;
+                color: #fff;
+                border-color: #000;
+            }
+            
+        }
+    }
+
+}
+
+.form-control[readonly]:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: $brand-warning;
+}
+
+.glyphicon {
+    font-size: 0.9em;
+}
+
+input.loading {
+    width:0;
+}
+
+input.loading:after {
+    content: 'Loading...';
+    opacity:0.6;
+}
+
+.table-striped > tbody > tr.bg-warning {
+    background-color: lighten($brand-warning, 10%);
+
+    td {
+        color: #fff;
+        font-weight:bold;
+    }
+}
+
+.table-no-inside-border > thead > tr > th {
+    border: none;
+}
+
+.table-no-inside-border > tbody > tr > td {
+    border-left: none;
+    border-right: none;
+}
+
+.table.no-inside-border {
+
+}
+
+.navbar .divider-vertical,
+.navbar-inverse .divider-vertical {
+    display: inline-block;
+    height: 35px;
+    margin: 7.5px 9px;
+    vertical-align: middle;
+}
+
+.navbar .divider-vertical {
+    border-right: 1px solid $navbar-default-bg;
+    border-left: 1px solid $laravel-border-color;
+}
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #222222;
+    border-left-color: #111111;
+}
+
+.navbar-user-icon {
+    background: #777;
+    color: #fff;
+    padding: 0.3em 0.2em 0 0.2em;
+    border-radius: 50%;
+    vertical-align: middle;
+    font-size: 1.5em;
+    margin-top: -0.4em;
+    margin-bottom: -0.2em;
+    margin-right: 0.3em;
+}
+
+.navbar-user-registration {
+    color:$brand-primary;
+}
+
+#create-form {
+    margin-bottom:4em;
+}
+
+.user-account-link {
+    padding: 10px 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    position: relative;
+    display: block;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.navbar-user-registration {
+    color: #fff;
+}
+
+.navbar-user-registration:hover {
+    opacity:0.85;
+}
+
+.outcome-interval {
+    padding: 0 0 1em;
+}
+
+.new-outcome-interval {
+    opacity:0.4;
+    transition:opacity 0.3s;
+
+    &:hover {
+        color: $brand-primary;
+        opacity:0.8;
+
+        input {
+            border-color: $brand-primary;
+        }
+    }
+}
+
+.form-question {
+    background: #fff;
+    margin: 0 0 2em;
+    border: 1px solid $laravel-border-color;
+}
+
+.form-question-label {
+    font-size: 1.6em;
+    vertical-align: middle;
+}
+
+.form-question-label input {
+    width: 78%;
+    display: inline;
+    vertical-align: bottom;
+}
+
+.form-question-order-controls {
+    padding: 0 0.1em;
+    vertical-align: middle;
+}
+
+.form-question-order-up,
+.form-question-order-up:hover,
+.form-question-order-up:focus,
+.form-question-order-up:active,
+.form-question-order-down,
+.form-question-order-down:hover,
+.form-question-order-down:focus,
+.form-question-order-down:active {
+    color: #fff;
+}
+
+.form-question-order-up,
+.form-question-order-down {
+    font-size: 1em;
+    vertical-align: middle;
+    opacity:0.7;
+}
+
+.form-question-order-up:hover,
+.form-question-order-down:hover {
+    opacity:1;
+}
+
+// .form-question-type {
+//     font-size: 1em;
+//     padding: 0.7em 0.8em;
+//     vertical-align: middle;
+// }
+.form-question-type {
+    width: 8em;
+    display: inline;
+    vertical-align: middle;
+}
+
+.form-question-info {
+    padding: 1em 0.8em;
+    background: #696969;
+    color: #fff;
+}
+
+.form-question-answers {
+}
+
+.form-question-answers-header {
+    background: #ffffff;
+    padding: 0.6em 0.7em;
+    color: #000;
+    font-size: 0.9em;
+    border-bottom: 1px solid $laravel-border-color;
+}
+
+.form-question-answer {
+    background: #f2f2f2;
+    padding: 1em 0.6em;
+    border-bottom: 1px solid $laravel-border-color;
+}
+
+.form-question-actions-dropdown {
+    display: inline-block;
+}
+
+.form-question-answer-label {
+    vertical-align: middle;
+    line-height: 2.2em;
+    font-size: 1.2em;
+}
+
+.form-question-new-answer-btn {
+    border-radius: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    padding: 0.5em 0em;
+}
+
+.form-new-question-btn {
+    display: block;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    padding: 0.5em 0em;
+}
+
+.form-question-edit-prereqs[disabled=disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.form-question-edit-prereqs[disabled=disabled]:hover {
+    background: none;
+}
+
+.form-question-required-label {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0.7em;
+    font-size: 0.8em;
+}
+
+input[type="checkbox"].form-question-required {
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 auto;
+}
+
+.form-review-btn {
+    margin-right: 0.4em;
+}
+
+.response-answers .prereq-unsatisfied {
+    color: #c8c8c8;
+}
+
+.form-actions-group .btn {
+    float: none;
+    margin-right: -4px;
+
+    &:last-child {
+        margin-right:0;
+    }
+}
+
+.prereq-choose-question,
+.prereq-choose-answer {
+    cursor: pointer;
+
+    &:hover td {
+        background: #eaeaea;
+    }
+}
+
+.prereq-choose-answer.already-required {
+    color: #ce9a9a;
+
+    td {
+        background: #fff !important;
+    }
+    
+    &.already-required:hover {
+        cursor: default;
+
+        td {
+            background: #fff !important;
+        }
+    }
+
+    .prereq-choose-answer-label:after {
+        content: " (Already required)";
+        font-weight: bold;
+    }
+}
+
+.user-registration {
+    cursor: pointer;
+
+    &:hover td {
+        background: #eaeaea;
+    }
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+}

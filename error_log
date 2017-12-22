@@ -1,0 +1,1 @@
+[08-Dec-2016 19:58:16 UTC] PHP Fatal error:  Call to undefined function phpinit() in /home/patientforms/public_html/dev.patientforms.net/index.php on line 3

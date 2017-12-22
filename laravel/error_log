@@ -1,0 +1,22 @@
+[08-Dec-2016 19:04:46 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[08-Dec-2016 19:04:46 UTC] PHP Warning:  copy(https://getcomposer.org/installer): failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[08-Dec-2016 19:05:05 UTC] PHP Warning:  hash_file(composer-setup.php): failed to open stream: No such file or directory in Command line code on line 1
+[08-Dec-2016 19:05:05 UTC] PHP Warning:  unlink(composer-setup.php): No such file or directory in Command line code on line 1
+[08-Dec-2016 19:05:56 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[08-Dec-2016 19:05:56 UTC] PHP Warning:  copy(https://getcomposer.org/installer): failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[08-Dec-2016 19:11:00 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[08-Dec-2016 19:11:00 UTC] PHP Warning:  copy(https://getcomposer.org/installer): failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[08-Dec-2016 19:11:31 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[08-Dec-2016 19:11:31 UTC] PHP Warning:  copy(https://getcomposer.org/installer): failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[08-Dec-2016 19:11:45 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[08-Dec-2016 19:11:45 UTC] PHP Warning:  copy(https://getcomposer.org/installer): failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[08-Dec-2016 19:52:43 UTC] PHP Fatal error:  Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///home/patientforms/public_html/dev.patientforms.net/laravel/composer.phar/vendor/symfony/polyfill-mbstring/Mbstring.php on line 513
+[08-Dec-2016 19:54:25 UTC] PHP Fatal error:  Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///home/patientforms/public_html/dev.patientforms.net/laravel/composer.phar/vendor/symfony/polyfill-mbstring/Mbstring.php on line 513
+[08-Dec-2016 19:55:15 UTC] PHP Fatal error:  Call to undefined function Symfony\Polyfill\Mbstring\iconv() in phar:///home/patientforms/public_html/dev.patientforms.net/laravel/composer.phar/vendor/symfony/polyfill-mbstring/Mbstring.php on line 513
+[08-Dec-2016 20:10:57 UTC] PHP Fatal error:  Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/patientforms/.config/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 520
+[08-Dec-2016 20:11:33 UTC] PHP Fatal error:  Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/patientforms/.config/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 520
+[08-Dec-2016 20:11:58 UTC] PHP Fatal error:  Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/patientforms/.config/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 520
+[08-Dec-2016 20:12:13 UTC] PHP Fatal error:  Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/patientforms/.config/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 520
+[08-Dec-2016 20:20:29 UTC] PHP Fatal error:  Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/patientforms/.config/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 520
+[08-Dec-2016 20:21:04 UTC] PHP Fatal error:  Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/patientforms/.config/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 520
+[08-Dec-2016 20:25:57 UTC] PHP Fatal error:  Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/patientforms/.config/composer/vendor/symfony/polyfill-mbstring/Mbstring.php on line 520

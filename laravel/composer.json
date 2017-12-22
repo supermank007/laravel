@@ -1,0 +1,6 @@
+{
+    "name": "patientforms/laravel",
+    "require": {
+        "laravel/installer": "^1.3"
+    }
+}
